@@ -1,5 +1,5 @@
 # HIDEN GO SQLITE DRIVER
-Hiden is a SQLite database driver written in Go.
+Hiden is (going to be) a SQLite database driver written in Go.
 
 It currently does not satisfy Go's database/sql interface, but probs will eventually.
 
