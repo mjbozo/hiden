@@ -36,12 +36,9 @@ results, err := db.Execute("select * from users;")
 ```
 
 The QueryResults object returned from `Execute` has default formatted string output.
-For example
-```go
-fmt.Println(results)
+For example `fmt.Println(results)` will produce something like:
 ```
-will product something like:
-```QueryResults: Size = 2
+QueryResults: Size = 2
 ┌------------┐
 | id | name  |
 |------------|
